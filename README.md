@@ -44,11 +44,57 @@ RegisterNumber:
 Logic symbol & Truthtable
 RTL realization
 
-### Output:
-### RTL
-### TIMING DIAGRAM
+## CODE:
+
+Half adder program:
+```
+module halfadd (a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum = (a^b);
+assign carry = (a&b);
+endmodule
+```
+Full adder program:
+```
+module fulladd (a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+assign sum = (a^b^c);
+assign carry = ((a&b)|(a^b)&c);
+endmodule
+```
+## TIME TABLE:
+
+HALF ADDER TRUTH TABLE:
+
+![image](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/90aa02eb-ef8f-42b5-a7cb-70ee086e5ef9)
+
+FULL ADDER TRUTH TABLE:
+
+![image](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/44c5b1c7-31b1-4ef7-bd7e-d80aba76b4ee)
+
+### RTL:
+HALF ADDER RTL VVIEW:
+
+![image](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/9c1aee83-c3cf-4b06-af6b-804b19d49e29)
+
+FULL ADDER RTL VIEW:
 
 
-### TRUTH TABLE 
+![image](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/bf1264ba-c2bc-4f09-a9fc-41114d9b5714)
+
+
+### OUTPUT:
+
+HALF ADDER:
+
+![image](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/caf561ad-e1da-4686-8fef-fe6f50ff8b5c)
+
+FULLER ADDER:
+
+![image](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/f87acbe3-7b37-498b-8784-108421cd38ca)
+
+
 
 ### Result:
