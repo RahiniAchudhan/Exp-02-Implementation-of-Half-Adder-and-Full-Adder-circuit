@@ -38,63 +38,45 @@ If the output is 1, then the led glows.
 Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
 
-## CODE:
+Developed by: RAHINI.A
 
-Half adder program:
-```
-module halfadd (a,b,sum,carry);
-input a,b;
-output sum,carry;
-assign sum = (a^b);
-assign carry = (a&b);
-endmodule
-```
-Full adder program:
-```
-module fulladd (a,b,c,sum,carry);
-input a,b,c;
-output sum,carry;
-assign sum = (a^b^c);
-assign carry = ((a&b)|(a^b)&c);
-endmodule
-```
-## TIME TABLE:
 
-HALF ADDER TRUTH TABLE:
+RegisterNumber:  23012479
+
+
+
+## HALFADDER :
+
+![PROGRAM](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/08775b58-3d33-40f4-b24b-f8a9136fd34f)
+
+
+## HALF ADDER TRUTH TABLE:
 
 ![image](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/90aa02eb-ef8f-42b5-a7cb-70ee086e5ef9)
 
-FULL ADDER TRUTH TABLE:
+# RTL VIEW:
+![HALF RTL](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/5967f021-e853-49fb-89d9-dd12969b5734)
+
+# TIMING DIAGRAM:
+![HALF ADD WAVE](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/1d004437-bbbe-4ac8-a716-d702a987e757)
+
+
+# FULL ADDER:
+
+![fulladder program](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/0c709b49-be55-43c7-aaf2-78864a232a47)
+
+## FULL ADDER TRUTH TABLE:
 
 ![image](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/44c5b1c7-31b1-4ef7-bd7e-d80aba76b4ee)
 
 ### RTL:
-HALF ADDER RTL VVIEW:
+![fulladder rtl](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/05aabcdd-9a3c-48a3-a38e-b936f4b5f035)
 
-![image](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/9c1aee83-c3cf-4b06-af6b-804b19d49e29)
+# TIMING DIAGRAM:
 
-FULL ADDER RTL VIEW:
-
-
-![image](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/bf1264ba-c2bc-4f09-a9fc-41114d9b5714)
-
-
-### OUTPUT:
-
-HALF ADDER:
-
-![image](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/caf561ad-e1da-4686-8fef-fe6f50ff8b5c)
-
-FULLER ADDER:
-
-![image](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/f87acbe3-7b37-498b-8784-108421cd38ca)
-
-
+![fulladder wave](https://github.com/RahiniAchudhan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145742838/b55696ad-90ad-4de1-928a-71ea35200fc0)
 
 ### Result:
+
+Thus the half adder and full adder circuits are designed and the truth table is verified using quartus software.
